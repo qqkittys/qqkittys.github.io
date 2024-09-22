@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Искандаров Евгений 3201</title>
+</head>
+<body>
+    <div class="flex justify-center gap-x-32 bg-teal-300 p-5">
+        <span class="text-center my-auto text-5xl text-white"><b>Я Искандаров Евгений</b><br><code>Мне 20 годиков</code></span>
+        <img class="border-4 rounded-full border-white"  width="256" src="https://img.freepik.com/free-photo/close-up-portrait-beautiful-cat_23-2149214411.jpg?t=st=1726547797~exp=1726551397~hmac=19f3e616393baeeffa087680d08f3a6d067dc693d1c6752803cc47bbe6700a44&w=740">
+    </div>
+
+    <div class="flex justify-center gap-32 bg-teal-200">
+        <span class="text-3xl">Моя почта: <code>studevg7718@gmail.com</code></span>
+        <a class="text-amber-400 text-3xl" href="https://nvsu.ru/"><i>Ссылка на мой университет</i></a>
+    </div>
+    
+    <div class="text-center flex flex-col gap-y-4 bg-teal-100 p-36">
+        <ul class="gap-y-4 flex flex-col">
+            <span class="text-5xl"><code>Информация о мне</code></span>
+            <li class="text-2xl">Мой номер группы: 3201</li>
+            <li class="text-2xl">Моя будущая проффесия: ничего не делать и получать миллионы</li>
+            <li class="text-2xl">Мои хобби: кушать и спать</li>
+        </ul>
+    </div>
+
+    <div class="flex justify-center p-5">
+        <span class="text-2xl"><b>Задания с табличками</b></span>
+    </div>
+
+
+    <!-- <td class="h-[20px] border border-slate-700"></td> -->
+
+    <div class="flex justify-center p-12">
+        <table class="border-collapse border border-slate-700 w-6/12">
+            <tr >
+                <td class="h-[20px] border border-slate-700" colspan="5"></td>
+            </tr>
+            <tr >
+                <td class="h-[20px] border border-slate-700" rowspan="3"></td>
+                <td class="h-[20px] border border-slate-700"></td>
+                <td class="h-[20px] border border-slate-700" rowspan="3"></td>
+                <td class="h-[20px] border border-slate-700"></td>
+                <td class="h-[20px] border border-slate-700"></td>
+            </tr>
+            <tr >
+                <td class="h-[20px] border border-slate-700" rowspan="3"></td>
+                <td class="h-[20px] border border-slate-700" rowspan="3"></td>
+                <td class="h-[20px] border border-slate-700"></td>
+            </tr>
+            <tr >
+                <td class="h-[20px] border border-slate-700"></td>
+            </tr>
+            <tr >
+                <td class="h-[20px] border border-slate-700"></td>
+                <td class="h-[20px] border border-slate-700"></td>
+                <td class="h-[20px] border border-slate-700"></td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div class="flex justify-center p-5">
+        <span class="text-2xl"><b>Задания с формами</b></span>
+    </div>
+
+    <div class="flex justify-center p-5">
+        <h1 class="text-2xl font-bold mb-4">ЗАО Птицефабрика №1</h1>
+
+<form class="max-w-md">
+    <div class="mb-4">
+        <label class="block mb-2">Фамилия
+            <input type="text" name="surname" class="w-full p-2 border border-gray-300 rounded">
+        </label>
+    </div>
+    <div class="mb-4">
+        <label class="block mb-2">Инициалы
+            <input type="text" name="initials" class="w-full p-2 border border-gray-300 rounded">
+        </label>
+    </div>
+    <div class="mb-4">
+        <label class="block mb-2">Пароль
+            <input type="password" name="password" class="w-full p-2 border border-gray-300 rounded">
+        </label>
+    </div>
+    <div class="mb-4">
+        <label class="block mb-2">Адрес получателя
+            <input type="text" name="address" class="w-full p-2 border border-gray-300 rounded">
+        </label>
+    </div>
+    <div class="flex items-center mb-4">
+        <label class="block w-full">Количество
+            <input type="text" name="quantity" class="w-full p-2 border border-gray-300 rounded">
+        </label>
+    </div>
+    <div class="flex items-center mb-4">
+        <label class="block w-full">Тип
+            <select name="type" class="w-full p-2 border border-gray-300 rounded">
+                <option>Куриные</option>
+            </select>
+        </label>
+        <label class="block w-full ml-2">
+            <select name="quality" class="w-full p-2 border border-gray-300 rounded">
+                <option>Отборные</option>
+                <option>Обычные</option>
+            </select>
+        </label>
+    </div>
+    <div class="mb-4">
+        <span class="block mb-2">Доставка</span>
+        <label class="inline-flex items-center mr-4">
+            <input type="radio" name="delivery" value="post" class="mr-1"> По почте
+        </label>
+        <label class="inline-flex items-center mr-4">
+            <input type="radio" name="delivery" value="email" class="mr-1"> Электронно
+        </label>
+        <label class="inline-flex items-center">
+            <input type="radio" name="delivery" value="courier" class="mr-1"> С курьером
+        </label>
+    </div>
+    <div class="mb-4">
+        <label class="inline-flex items-center">
+            <input type="checkbox" name="cash_on_delivery" class="mr-2"> Требуется наложенная
+        </label>
+    </div>
+    <div class="mb-4">
+        <label class="block mb-2">Дополнительная информация
+            <textarea name="additional_info" rows="4" class="w-full p-2 border border-gray-300 rounded"></textarea>
+        </label>
+    </div>
+</form>
+
+    </div>
+
+</body>
+</html>
